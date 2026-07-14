@@ -90,13 +90,9 @@ img { display: block; max-width: 100%; }
 .nav { display: flex; align-items: center; justify-content: space-between; padding: .85rem 0; }
 .brand { display: flex; align-items: center; gap: .7rem; }
 .brand-mark {
-  width: 46px; height: 46px; border-radius: 12px; flex: none;
-  background: linear-gradient(135deg, var(--navy), var(--blue));
-  display: grid; place-items: center;
-  font-family: var(--font-heading); font-weight: 700; color: #fff; font-size: 1.15rem;
-  box-shadow: var(--shadow-sm);
+  height: 46px; width: auto; flex: none;
+  object-fit: contain;
 }
-.brand-mark span { color: var(--gold); }
 .brand-text strong { display: block; font-family: var(--font-heading); font-weight: 600; font-size: 1.12rem; color: var(--navy); line-height: 1.1; }
 .brand-text small { font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
 
